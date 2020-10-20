@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>BET365 - England Premier League</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize_edit.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class=" red darken-4 lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">BET 365</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Log out</a></li>
+      </ul>
+
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center red-text">England Premier League</h1>
+      <div class="row center">
+        <h5 class="header col s12 light  grey-text">Bet on matches and earn money! </h5>
+      </div>
+      
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container content">
+
+    <!--팀 엠블램, 이름 등 부분-->
+    <div class="row center-align">
+      <div class = "col s1 arrow waves-effect">
+        <div class="material-icons">chevron_left</div>
+      </div>
+      <div class="col s4">
+        <img src = "images/emblems/liverpool.png" class = "emblem">
+        <p id = "name_team name_home">Liverpool FC</p>
+        </div>
+      <div class = "col s2" style = "margin-top : 150px; font-size : 20pt">
+        <p>VS</p>
+      </div>
+      <div class="col s4">
+         <img src = "images/emblems/manchester-city.png" class = "emblem">
+         <p id = "name_team name_away">Manchester city</p>
+      </div>
+      <div class = "col s1 arrow waves-effect">
+      <div class="material-icons">chevron_right</div>
+      </div>
+    </div>
+
+    <!-- 배팅부분 -->
+    <div class = "row center-align" style = "margin-bottom : 100px;">
+      <a class="waves-effect waves-light btn"><i class="material-icons left">skip_previous</i>Home</a>
+      <input placeholder = "배팅하기" class = "center-align" id = "betInput">
+      <a class="waves-effect waves-light btn"><i class="material-icons right">skip_next</i>Away</a>
+    </div>
+
+    <!-- 댓글부분 -->
+    <div class = "row">
+
+      <p style = "margin-bottom : -20px; color : grey; text-align : center;">Comment</p>
+      <form class="col s12">
+        <div class = "col s4">　</div>
+        <div class="input-field col s4">
+          <input id="comment" placeholder = "  욕설, 도배는 예고없이 삭제될 수 있습니다." type="text" class="validate" maxlength = "50">
+        </div>
+      </form>
+
+    <div class = "col s1">　</div>
+    <ul class="collection  col s10" style = "margin-top : 0px">
+      <li class="collection-item avatar">
+        <img src="images/yuna.jpg" alt="" class="circle">
+        <span class="writer">Big Club</span><br>
+        <span class="comment">YNWA ! You will never walk alone !</span>
+        <a href="#!" class="secondary-content btn_delete"><i class="material-icons">no_sim</i></a>
+      </li>
+      <li class="collection-item avatar">
+        <i class="material-icons circle red">folder</i>
+        <span class="writer">Yayatture</span><br>
+        <span class="comment">Cobb and others are extremely disgusted</span>
+        <a href="#!" class="secondary-content btn_delete"><i class="material-icons">no_sim</i></a>
+      </li>
+      <li class="collection-item avatar">
+        <i class="material-icons circle green">insert_chart</i>
+        <span class="writer">Cell phone</span><br>
+        <span class="comment">I personally wish it was a draw.</span>
+        <a href="#!" class="secondary-content btn_delete"><i class="material-icons">no_sim</i></a>
+      </li>
+      <li class="collection-item avatar">
+        <i class="material-icons circle blue">shopping_basket</i>
+        <span class="writer">Professional gambler</span><br>
+        <span class="comment">Try to predict 4:1.</span>
+        <a href="#!" class="secondary-content btn_delete"><i class="material-icons">no_sim</i></a>
+      </li>
+      
+  </ul>
+
+
+    </div>
+
+
+  </div>
+
+<!-- footer -->
+  <footer class="page-footer  grey lighten-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Web programming project</h5>
+          <p class="white-text">
+            API : http://football-api.com/ <br>
+          
+          </p>
+
+
+        </div>
+        
+        <div class="col l6 s12 right-align">
+          <h5 class="white-text">created</h5>
+          <ul>
+            <li><a class="white-text" href="#!">in 2020 year</a></li>
+            
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+    <!--  Made by <a class="orange-text text-lighten-4" href="http://materializecss.com">Materialize</a> -->
+      </div>
+    </div> 
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="../../bin/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
